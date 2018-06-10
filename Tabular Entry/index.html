@@ -15,22 +15,49 @@
 
 </head>
 <body>
-    <div class="ui menu"></div>
-
-    <div class="ui container">
-        <!-- A grid to hold our 'form' -->
-        <div class="ui four column grid">
-            <div class="column">
-                <div class="ui input">
-                    <input type="text" placeholder="Name" />
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="ui inverted menu"></div>
 
     <div class="ui text container">
-        <!-- A table to hold all of our entries -->
-    </div>
 
+        <!-- A grid to hold our 'form' -->
+        <div class="ui five column grid">
+            <div class="column">
+                <div class="ui fluid input">
+                    <input id="nameField" type="text" placeholder="Name" />
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui fluid input">
+                    <input id="classField" type="text" placeholder="Class" />
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui fluid input">
+                    <input id="raceField" type="text" placeholder="Race" />
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui fluid input">
+                    <input id="levelField" type="number" placeholder="Level" />
+                </div>
+            </div>
+            <div class="column">
+                <button id="addEntry" class="ui fluid primary button">Add </button>
+            </div>
+        </div>
+
+        <!-- A table to hold all of our entries -->
+        <table id="characters" class="ui inverted celled table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Race</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+        </table>
+
+    </div>
 </body>
 </html>
