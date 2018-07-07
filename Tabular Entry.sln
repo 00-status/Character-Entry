@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "Tabular Entry", "..\..\..\..\..\Users\Liam\source\repos\Tabular Entry\Tabular Entry\Tabular Entry.phpproj", "{C5CCC53B-B895-4E5A-BC0B-0B75360465E8}"
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "Tabular Entry", "Tabular Entry\Tabular Entry.phpproj", "{86961631-2938-4239-B0DD-C84083BF7127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C5CCC53B-B895-4E5A-BC0B-0B75360465E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5CCC53B-B895-4E5A-BC0B-0B75360465E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86961631-2938-4239-B0DD-C84083BF7127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86961631-2938-4239-B0DD-C84083BF7127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4B6309CC-515F-4F3A-A020-38F6357DB316}
+		SolutionGuid = {8D56B46C-75FA-4C52-A624-1B789A627E85}
 	EndGlobalSection
 EndGlobal
